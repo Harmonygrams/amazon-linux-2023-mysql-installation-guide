@@ -2,10 +2,10 @@
 - SSH into your Amazon Linux 2023 EC2 Instance.
 - Download the MySQL Community Yum Repository RPM:
 
-```sudo wget https://dev.mysql.com/get/mysql84-community-release-el9-1.noarch.rpm```
+```sudo wget https://dev.mysql.com/get/mysql80-community-release-el9-1.noarch.rpm```
 
 ### Install the MySQL Community Yum Repository.
-```sudo dnf install mysql84-community-release-el9-1.noarch.rpm -y```
+```sudo dnf install mysql80-community-release-el9-1.noarch.rpm -y```
 
 ### Import the MySQL GPG Key.
 ```sudo rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023```
